@@ -85,7 +85,7 @@ To implement the Falco changes, I'm going to take advantage of Helm values on th
  
 ## 7. Check out Falco SidekickUI
  
-Forward a port from my local PC to get into the cluster service (no ingress configured):
+Forward a port from my local PC to get into the cluster service (since I didn't configure an ingress for Falco Sidekick UI):
  
 `kubectl port-forward svc/falco-falcosidekick-ui 2802:2802`
  
